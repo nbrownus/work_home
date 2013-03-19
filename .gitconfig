@@ -1,0 +1,23 @@
+[color]
+    ui = true
+
+[alias]
+    co = checkout
+    ci = commit
+    st = status -- .
+    b = !git branch -vv
+    ba = !git branch -avv
+    hist = !git --no-pager log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -20
+    history = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    ignored = !git clean -ndX | perl -pe 's/Would remove/ignored:/'
+
+[diff]
+    renames = true
+    noprefix = true
+
+[format]
+    pretty = fuller
+[user]
+    name = Nathan Brown
+    email = nate@betable.com
+    bname = Nate Brown
