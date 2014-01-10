@@ -5,6 +5,7 @@ export force_color_prompt="yes"
 #git remote update origin && git pull origin master
 
 alias tar='gnutar'
+alias ls='ls --color=auto'
 alias ll='ls -lG'
 alias ls='ls -G'
 alias la='ls -lGa'
