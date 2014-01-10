@@ -15,6 +15,7 @@ export CLICOLOR=1
 export TERM="xterm-color"
 export force_color_prompt="yes"
 export GREP_OPTIONS='--color=auto -r'
+export LS_COLORS='auto'
 
 POINTER_CHAR="⬆"
 PREINFO="\n$POINTER_CHAR $BIBLUE[ "$BICYAN"exit: $BIWHITE\$?$BIBLUE ] [ "$BICYAN"time: $BIWHITE\t$BIBLUE ]$END_COLOR"
