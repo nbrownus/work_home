@@ -13,6 +13,7 @@ alias la='ls -lGa'
 
 export CLICOLOR=1
 export TERM="xterm-color"
+export force_color_prompt="yes"
 export GREP_OPTIONS='--color=auto -r'
 
 POINTER_CHAR="⬆"
