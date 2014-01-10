@@ -7,7 +7,9 @@ alias ll='ls -lG'
 alias ls='ls -G'
 alias la='ls -lGa'
 
-. $HOME/.profile.d/colors.sh
+. $HOME/.colors.sh
+. $HOME/.git-prompt.sh
+. $HOME/.git-completion.sh
 
 export CLICOLOR=1
 export TERM="xterm-color"
