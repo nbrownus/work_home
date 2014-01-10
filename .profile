@@ -1,6 +1,8 @@
+export force_color_prompt="yes"
+
 [ "$BASH" -a -f ~/.bashrc ] && . ~/.bashrc
 
-git remote update origin && git pull origin master
+#git remote update origin && git pull origin master
 
 alias tar='gnutar'
 alias ll='ls -lG'
@@ -13,7 +15,6 @@ alias la='ls -lGa'
 
 export CLICOLOR=1
 export TERM="xterm-color"
-export force_color_prompt="yes"
 export GREP_OPTIONS='--color=auto -r'
 export LS_COLORS='auto'
 
