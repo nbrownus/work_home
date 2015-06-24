@@ -14,8 +14,7 @@ alias la='ls -lGa --color=auto'
 . $HOME/.git-completion.sh
 
 export CLICOLOR=1
-export TERM="xterm-color"
-export GREP_OPTIONS='--color=auto -r'
+export TERM="xterm"
 
 POINTER_CHAR="⬆"
 PREINFO="\n$POINTER_CHAR $BIBLUE[ "$BICYAN"exit: $BIWHITE\$?$BIBLUE ] [ "$BICYAN"time: $BIWHITE\$(TZ='America/Los_Angeles' date +%H:%M:%S)$BIBLUE ]$END_COLOR"
@@ -34,4 +33,8 @@ export GIT_PS1_SHOWUPSTREAM="auto"
 
 function bt {
     echo -ne "\033]0;"$*"\007"
+}
+
+function rep {
+    grep --color=auto -r --exclude-dir .git --exclude-dir .idea --exclude-dir .svn "$@"
 }
