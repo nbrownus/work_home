@@ -3,6 +3,7 @@ export force_color_prompt="yes"
 [ "$BASH" -a -f ~/.bashrc ] && . ~/.bashrc
 
 #git remote update origin && git pull origin master
+export PATH="/bin:$PATH"
 
 alias tar='gnutar'
 alias ls='ls -G --color=auto'
