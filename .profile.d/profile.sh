@@ -6,9 +6,9 @@ export force_color_prompt="yes"
 export PATH="/bin:$PATH"
 
 alias tar='gnutar'
-alias ls='ls -G --color=auto'
-alias ll='ls -lG --color=auto'
-alias la='ls -lGa --color=auto'
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -la --color=auto'
 
 export CLICOLOR=1
 export TERM="xterm"
