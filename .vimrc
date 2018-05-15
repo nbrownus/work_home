@@ -12,4 +12,4 @@ set hlsearch
 let mapleader="," " leader is comma
 nnoremap <leader><space> :nohlsearch<CR>
 
-filetype indent on
+filetype indent off
